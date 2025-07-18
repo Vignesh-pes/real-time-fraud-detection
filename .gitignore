@@ -1,0 +1,17 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual Environment folder
+.venv/
+env/
+
+# Data files (if they are too large for GitHub)
+/data/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+train_transaction.csv
+test_transaction.csv
