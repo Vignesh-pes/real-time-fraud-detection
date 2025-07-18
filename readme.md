@@ -67,7 +67,7 @@ pip install -r requirements.txt
 5. Download and Place the Dataset
 The dataset used for training is not included in the repository due to its size.
 
-Download Link: [text](https://www.kaggle.com/competitions/ieee-fraud-detection/data?select=test_transaction.csv)
+Download Link: [IEEE-CIS Fraud Detection](https://www.kaggle.com/competitions/ieee-fraud-detection/data?select=test_transaction.csv)
 
 After downloading, create a directory named data in the project's root folder and place the train_transaction.csv and test_transaction.csv files inside it.
 
