@@ -6,6 +6,8 @@ The core challenge with fraud detection is the severe class imbalance in the dat
 🏗️ System Architecture
 The application follows a simple, robust architecture for real-time inference:
 
+Plaintext
+
 User Input -> Web UI / API -> Data Preprocessing -> XGBoost Model -> Prediction (Fraud/Not Fraud) -> SHAP Explanation -> Display Result
 ✨ Key Features
 High-Performance Model: Employs an XGBoost classifier, known for its speed and accuracy.
@@ -65,7 +67,7 @@ pip install -r requirements.txt
 5. Download and Place the Dataset
 The dataset used for training is not included in the repository due to its size.
 
-Download Link: [Paste the public link to your dataset here]
+Download Link: IEEE-CIS Fraud Detection Dataset
 
 After downloading, create a directory named data in the project's root folder and place the train_transaction.csv and test_transaction.csv files inside it.
 
@@ -113,7 +115,6 @@ Method: POST
 Body: A JSON object with transaction features.
 
 Example Request:
-
 JSON
 
 {
@@ -126,7 +127,6 @@ JSON
   "R_emaildomain": "gmail.com"
 }
 Example Success Response:
-
 JSON
 
 {
@@ -138,4 +138,4 @@ JSON
   }
 }
 📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details
+This project is licensed under the MIT License. See the LICENSE file for more details.
